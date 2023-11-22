@@ -1,0 +1,76 @@
+* {
+  /* background-color: rgb(19 19 19); */
+  /* background-color: rgb(59, 74, 84); */
+  /* rgb(56 255 76)    green jo submit pr h */
+  /* rgb(31 31 33)  light black wala */
+  /* rgb(43 43 45) box ke ander  */
+  /* rgb(89 89 91) box ke ander text  */
+  /* rgb(204 204 206) contect wala color  */
+  color: rgb(154 154 154);
+}
+
+.main {
+  background-color: rgb(19 19 19);
+  line-height: 1.8;
+  max-width: 320px;
+  /* margin: 10px; */
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form {
+  background-color: rgb(24, 23, 23);
+  /* width: 100%;
+  padding: 10px;
+  border: rgb(154 154 154) 1px solid;
+  border-radius: 5px; */
+}
+.form .form-group input {
+  width: 90%;
+  padding: 10px;
+  border: rgb(154 154 154) 1px solid;
+  border-radius: 5px;
+  background-color: rgb(43 43 45);
+
+  /* display: block; */
+  /* width: 100%;
+  padding: 10px;
+  border: rgb(154 154 154) 1px solid;
+  border-radius: 5px; */
+}
+
+.form .form-group label {
+  display: block;
+  color: white;
+}
+
+.form .form-group select {
+  width: 96%;
+  padding: 10px;
+  border: rgb(154 154 154) 1px solid;
+  border-radius: 5px;
+  background-color: rgb(43 43 45);
+  color: white;
+}
+
+.form .form-group input[type="email"]::placeholder {
+  color: white;
+}
+
+.form .form-group textarea {
+  width: 90%;
+  padding: 10px;
+  border: rgb(154 154 154) 1px solid;
+  border-radius: 5px;
+  background-color: rgb(43 43 45);
+}
+
+.submit input {
+  background-color: rgb(56 255 76);
+  color: black;
+  width: 97%;
+  padding: 10px;
+  font-weight: bolder;
+  border-radius: 5px;
+  border: none;
+}
